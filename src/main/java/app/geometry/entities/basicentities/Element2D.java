@@ -1,13 +1,12 @@
-package app.geometry.entities;
+package app.geometry.entities.basicentities;
 
 import app.geometry.generalproperties.GeneralProperties;
 import app.utilites.tools.StringRepresenter;
 
 public class Element2D extends Entity {
 
-    private static int COUNT = 0;
     private static final String MCT_NAME = "*ELEMENT";
-
+    private static int COUNT = 0;
     private Node startNode, endNode;
     private GeneralProperties generalProperties;
 
@@ -65,10 +64,5 @@ public class Element2D extends Entity {
     @Override
     public int getCount() {
         return COUNT;
-    }
-
-    @Override
-    public String getMctName() {
-        return MCT_NAME;
     }
 }

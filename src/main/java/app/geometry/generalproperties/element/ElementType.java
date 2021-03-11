@@ -2,6 +2,7 @@ package app.geometry.generalproperties.element;
 
 public enum ElementType {
 
-    BEAM
+    BEAM_2D,
+    TRUSS_2D,
 
 }
