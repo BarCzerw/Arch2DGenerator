@@ -5,7 +5,6 @@ import app.utilites.tools.StringRepresenter;
 
 public class Element2D extends Entity {
 
-    private static final String MCT_NAME = "*ELEMENT";
     private static int COUNT = 0;
     private Node startNode, endNode;
     private GeneralProperties generalProperties;

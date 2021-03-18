@@ -2,7 +2,10 @@ package app.mtcfile;
 
 public enum MctDataType {
     NODE_CREATING("*NODE"),
-    ELEMENT_CREATING("*ELEMENT");
+    ELEMENT_CREATING("*ELEMENT"),
+    SUPPORT("*CONSTRAINT"),
+    SPRING("*SPRING");
+
 
     private final String dataHeader;
 
